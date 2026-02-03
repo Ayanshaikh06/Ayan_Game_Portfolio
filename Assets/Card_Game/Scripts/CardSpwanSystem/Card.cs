@@ -15,9 +15,6 @@ public class Card : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private Image frontImage;
 
-    public bool IsFree { get; private set; }
-
-
     private void Awake()
     {
         button.onClick.AddListener(HandleClick);
@@ -30,11 +27,11 @@ public class Card : MonoBehaviour
     {
         if (IsMatched || IsFlipped)
         {
-            Debug.Log($"[Card] Click ignored | ID: {cardId}");
+            // Debug.Log($"[Card] Click ignored | ID: {cardId}");
             return;
         }
 
-        Debug.Log($"[Card] Clicked | ID: {cardId}");
+        // Debug.Log($"[Card] Clicked | ID: {cardId}");
 
         FlipFront();
         IsFlipped = true;
@@ -45,19 +42,10 @@ public class Card : MonoBehaviour
     public void SetMatched()
     {
         IsMatched = true;
-        IsFlipped = true; // explicitly keep it flipped
-        Debug.Log($"[Card] Card matched | ID: {cardId}");
+        IsFlipped = true; 
+        // Debug.Log($"[Card] Card matched | ID: {cardId}");
         AudioManager.Instance.PlayMatch();
     }
-
-
-    public void MarkAsFree()
-    {
-        IsFree = true;
-        IsFlipped = false; 
-        IsMatched = true; // treated as already resolved
-    }
-
     public void FlipFront()
     {
         animator.SetTrigger("FlipFront");

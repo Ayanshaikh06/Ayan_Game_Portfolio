@@ -8,24 +8,15 @@ public class MenuController : MonoBehaviour
     [SerializeField] private GameObject gameUI;
     [SerializeField] private GameObject gameOverPanel;
 
-    // -------------------------
-    // START FLOW
-    // -------------------------
-
-    // Start → Select grid size
     public void OnStartClicked()
     {
-        Debug.Log("[Menu] Start clicked");
+        // Debug.Log("Start clicked");
 
         startPanel.SetActive(false);
         selectPanel.SetActive(true);
         gameUI.SetActive(false);
         gameOverPanel.SetActive(false);
     }
-
-    // -------------------------
-    // GRID SELECTION
-    // -------------------------
 
     public void StartGame_2x2()
     {
@@ -44,7 +35,7 @@ public class MenuController : MonoBehaviour
 
     private void StartGame(int rows, int cols)
     {
-        Debug.Log($"[Menu] Starting game {rows}x{cols}");
+        // Debug.Log($"Starting game {rows}x{cols}");
 
         startPanel.SetActive(false);
         selectPanel.SetActive(false);
@@ -54,13 +45,9 @@ public class MenuController : MonoBehaviour
         GameManager.Instance.StartNewGame(rows, cols);
     }
 
-    // -------------------------
-    // GAME OVER ACTIONS
-    // -------------------------
-
     public void RestartSameGrid()
     {
-        Debug.Log("[Menu] Restart same grid");
+        // Debug.Log("Restart same grid");
 
         gameOverPanel.SetActive(false);
         gameUI.SetActive(true);
@@ -73,7 +60,7 @@ public class MenuController : MonoBehaviour
 
     public void BackToMenuFromGameOver()
     {
-        Debug.Log("[Menu] Back to menu from Game Over");
+        // Debug.Log("Back to menu from Game Over");
 
         gameOverPanel.SetActive(false);
         gameUI.SetActive(false);

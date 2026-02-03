@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text scoreText;
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private TMPro.TMP_Text finalScoreText;
+    [SerializeField] private ScorePopup scorePopupPrefab;
+    [SerializeField] private RectTransform popupParent;
 
     private int comboCount = 0;
 
@@ -28,27 +30,22 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            Debug.Log("[GameManager] Instance created");
         }
         else
         {
-            Debug.LogWarning("[GameManager] Duplicate instance destroyed");
             Destroy(gameObject);
         }
     }
 
     private void Start()
     {
-        Debug.Log("[GameManager] Game started");
 
         if (SaveSystem.HasSave())
         {
-            Debug.Log("[GameManager] Save found, loading game");
             LoadGame();
         }
         else
         {
-            Debug.Log("[GameManager] No save found, starting new game");
             StartNewGame(4, 4);
         }
     }
@@ -58,7 +55,7 @@ public class GameManager : MonoBehaviour
         rows = r;
         cols = c;
 
-        Debug.Log($"[GameManager] Starting new game {rows}x{cols}");
+        // Debug.Log($" Starting new game {rows}x{cols}");
 
         score = 0;
         flippedCards.Clear();
@@ -73,11 +70,11 @@ public class GameManager : MonoBehaviour
 
     private void HandleCardFlip(Card card)
     {
-        Debug.Log($"[GameManager] Card flipped → ID: {card.cardId}");
+        // Debug.Log($" Card flipped → ID: {card.cardId}");
 
         if (flippedCards.Count >= 2)
         {
-            Debug.LogWarning("[GameManager] Ignored flip: already 2 cards flipped");
+            Debug.LogWarning("Ignored flip: already 2 cards flipped");
             return;
         }
 
@@ -92,27 +89,27 @@ public class GameManager : MonoBehaviour
         Card a = flippedCards[0];
         Card b = flippedCards[1];
 
-        Debug.Log($"[GameManager] Checking match: {a.cardId} vs {b.cardId}");
+        // Debug.Log($" Checking match: {a.cardId} vs {b.cardId}");
 
         if (a.cardId == b.cardId)
         {
             comboCount++;
 
-            int comboBonus = comboCount * 5;   // simple scaling
+            int comboBonus = comboCount * 5;  
             int points = 10 + comboBonus;
 
-            Debug.Log($"[GameManager] Match! Combo x{comboCount} | +{points}");
+            // Debug.Log($"Match! Combo x{comboCount} | +{points}");
 
             a.SetMatched();
             b.SetMatched();
-            UpdateScoreUI();
-
-            CheckGameOver();
             score += points;
+            UpdateScoreUI();
+            ShowScorePopup(points);
+            CheckGameOver();
         }
         else
         {
-            Debug.Log("[GameManager] Mismatch → combo reset");
+            // Debug.Log(" Mismatch → combo reset");
 
             comboCount = 0;
             Invoke(nameof(FlipBackCards), 0.6f);
@@ -130,7 +127,7 @@ public class GameManager : MonoBehaviour
     }
     private void FlipBackCards()
     {
-        Debug.Log("[GameManager] Flipping back unmatched cards");
+        // Debug.Log("Flipping back unmatched cards");
 
         foreach (Card card in allCards)
         {
@@ -141,7 +138,7 @@ public class GameManager : MonoBehaviour
 
     private void LoadGame()
     {
-        Debug.Log("[GameManager] Loading saved game");
+        // Debug.Log(" Loading saved game");
 
         SaveData data = SaveSystem.Load();
 
@@ -161,7 +158,7 @@ public class GameManager : MonoBehaviour
             allCards[i].OnCardFlipped += HandleCardFlip;
         }
 
-        Debug.Log($"[GameManager] Game loaded | Score: {score}");
+        // Debug.Log($"Game loaded | Score: {score}");
     }
     private void ShowGameOver()
     {
@@ -170,19 +167,29 @@ public class GameManager : MonoBehaviour
         if (finalScoreText != null)
             finalScoreText.text = $"Final Score: {score}";
     }
+    private void ShowScorePopup(int amount)
+    {
+        if (scorePopupPrefab == null || popupParent == null)
+            return;
+
+        ScorePopup popup = Instantiate(scorePopupPrefab, popupParent);
+        RectTransform popupRect = popup.GetComponent<RectTransform>();
+        popupRect.anchoredPosition = scoreText.rectTransform.anchoredPosition;
+
+        popup.Play(amount);
+    }
 
     private void CheckGameOver()
     {
         foreach (Card card in allCards)
         {
             if (!card.IsMatched)
-                return; // Still cards left
+                return;
         }
 
-        Debug.Log("[GameManager] GAME OVER");
+        // Debug.Log("GAME OVER");
 
-        AudioManager.Instance.PlayGameOver();
-        ShowGameOver();
+        Invoke(nameof(ShowGameOver), 2f);
     }
 
 }
