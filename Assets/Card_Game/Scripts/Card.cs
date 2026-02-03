@@ -13,12 +13,19 @@ public class Card : MonoBehaviour
 
     [SerializeField] private Button button;
     [SerializeField] private Animator animator;
+    [SerializeField] private Image frontImage;
+
+    public bool IsFree { get; private set; }
+
 
     private void Awake()
     {
         button.onClick.AddListener(HandleClick);
     }
-
+    public void SetFrontSprite(Sprite sprite)
+    {
+        frontImage.sprite = sprite;
+    }
     private void HandleClick()
     {
         if (IsMatched || IsFlipped)
@@ -44,6 +51,12 @@ public class Card : MonoBehaviour
     }
 
 
+    public void MarkAsFree()
+    {
+        IsFree = true;
+        IsFlipped = false; 
+        IsMatched = true; // treated as already resolved
+    }
 
     public void FlipFront()
     {

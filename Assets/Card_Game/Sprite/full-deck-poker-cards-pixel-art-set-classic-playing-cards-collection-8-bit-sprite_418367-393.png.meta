@@ -1,0 +1,1047 @@
+fileFormatVersion: 2
+guid: 475350943bda6e1409b3c9b674700f40
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 215
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3201eae77498d484293191d635185f8d
+      internalID: -334695623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d865078c81298b04896f39694361d5fd
+      internalID: 1257089813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7d3cbb27527b5438131cf7e0ab67c1
+      internalID: -1117218864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84168ab91443bd489a8fadec1dabd9d
+      internalID: 1568959314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99c25b6d558008488501290c2ca0424
+      internalID: 689998813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19839f7329e12b14f9aa75e1b478150a
+      internalID: 743899687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 164
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5874705976dcf4a802c9b3f19110cb
+      internalID: 583312308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 164
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f91d05ef244e94ca7447c4436c6b49
+      internalID: 1903285993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 164
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d509a3d3b6d3f47bc45848a3a69993
+      internalID: 1260739350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 164
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7628230db5e75ca47bd9b3f1343eb4bf
+      internalID: 280190760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 164
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6968699bfa825f043885d624c00b68ac
+      internalID: 871696490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06c6ad4e8056874c97f863ad8ca74bb
+      internalID: -959752199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629bf111d82887d42b829e6a1abdb64b
+      internalID: 1808179088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8cab8dd3f4f1d46941b8605db0df8a
+      internalID: -2023631585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_14
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de588d67e2e993440a9c3f23bdb8c112
+      internalID: -511254076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_15
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfbb287469188448ac5f6050601eb7d
+      internalID: -31799059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 61
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df4f5870f73ac146b90504d5a35bd4a
+      internalID: 466563194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 61
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7a323aef0dae14ca504806d5db58b1
+      internalID: -1632887396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_18
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 60
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f59497dcea31c4da8e0034343f3d3c
+      internalID: 1497056944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 60
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbd86bf6e804d84b9855c85748ae545
+      internalID: 155291028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_20
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 61
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6267d9d783a78458054f564b853a4e
+      internalID: 1872966972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_21
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 61
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd387eb7a0adfdf49bde1d9aea351582
+      internalID: 79295394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce35c51e40ece3468922d81e2d3607f
+      internalID: 2009141871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a10428e52ed3eb498bcacf8298efe87
+      internalID: -983928137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_24
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690bd1d858ee7584f82ef1e2afc27772
+      internalID: 730337770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_25
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e6baf29db66d34d9b0fa5781170c52
+      internalID: -2147247253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_26
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 214
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5a0df12d2c0f84b922de8c638c2aec
+      internalID: -1660238932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_27
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 163
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b65c89bcc8b71478871c052654f2de
+      internalID: 372148375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_28
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 163
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b694455d61eb5f14ab7bb83d025619b8
+      internalID: -2037496141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_29
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 164
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07af47fb6993b044c990e4c2246f5d73
+      internalID: -279712888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 163
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540b333d89935be458dd0aac842a7991
+      internalID: -2142258808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_31
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 164
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f9ae13b34f3ba4bb760f1460a46197
+      internalID: -641441057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_32
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67dc4e398039334db7b7fdcdd9e74ef
+      internalID: -1675893247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7b82ac6491e244eb9629da3bcaf507
+      internalID: -1606501622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_34
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebf409eab96c674e8a8e0a0a1e6b24c
+      internalID: 816650451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_35
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e098187c027d4e459f7e55c125ba63e
+      internalID: 571485260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_36
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 112
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a243a63fb88bf1042b022d7f8e9caf79
+      internalID: -815539181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_37
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 61
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d2887525e34ed4b967bab700db6103
+      internalID: 458067469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 61
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52ed66b2b914b74abaee07278923506
+      internalID: 1611937089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_39
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 61
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383d67b63db359a449cfa5492c128a63
+      internalID: -1680762126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_40
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 61
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7738fee6f293873498b7b46bc9f5501c
+      internalID: 796106277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_41
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 60
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3092f4df430bf81438ff92867d0a786c
+      internalID: -86659533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_0: -334695623
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_1: 1257089813
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_10: 871696490
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_11: -959752199
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_12: 1808179088
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_13: -2023631585
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_14: -511254076
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_15: -31799059
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_16: 466563194
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_17: -1632887396
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_18: 1497056944
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_19: 155291028
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_2: -1117218864
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_20: 1872966972
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_21: 79295394
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_22: 2009141871
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_23: -983928137
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_24: 730337770
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_25: -2147247253
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_26: -1660238932
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_27: 372148375
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_28: -2037496141
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_29: -279712888
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_3: 1568959314
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_30: -2142258808
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_31: -641441057
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_32: -1675893247
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_33: -1606501622
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_34: 816650451
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_35: 571485260
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_36: -815539181
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_37: 458067469
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_38: 1611937089
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_39: -1680762126
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_4: 689998813
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_40: 796106277
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_41: -86659533
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_5: 743899687
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_6: 583312308
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_7: 1903285993
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_8: 1260739350
+      full-deck-poker-cards-pixel-art-set-classic-playing-cards-collection-8-bit-sprite_418367-393_9: 280190760
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

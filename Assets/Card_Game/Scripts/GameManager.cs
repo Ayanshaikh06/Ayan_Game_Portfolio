@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GridManager gridManager;
     [SerializeField] private TMP_Text scoreText;
+    [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private TMPro.TMP_Text finalScoreText;
+
     private int comboCount = 0;
 
     private List<Card> flippedCards = new List<Card>();
@@ -16,6 +19,9 @@ public class GameManager : MonoBehaviour
     private int score;
     private int rows = 4;
     private int cols = 4;
+    public int Rows => rows;
+    public int Cols => cols;
+
 
     private void Awake()
     {
@@ -99,7 +105,9 @@ public class GameManager : MonoBehaviour
 
             a.SetMatched();
             b.SetMatched();
+            UpdateScoreUI();
 
+            CheckGameOver();
             score += points;
         }
         else
@@ -109,8 +117,6 @@ public class GameManager : MonoBehaviour
             comboCount = 0;
             Invoke(nameof(FlipBackCards), 0.6f);
         }
-
-        UpdateScoreUI();
 
         flippedCards.Clear();
         SaveSystem.Save(allCards, rows, cols, score);
@@ -157,4 +163,26 @@ public class GameManager : MonoBehaviour
 
         Debug.Log($"[GameManager] Game loaded | Score: {score}");
     }
+    private void ShowGameOver()
+    {
+        gameOverPanel.SetActive(true);
+
+        if (finalScoreText != null)
+            finalScoreText.text = $"Final Score: {score}";
+    }
+
+    private void CheckGameOver()
+    {
+        foreach (Card card in allCards)
+        {
+            if (!card.IsMatched)
+                return; // Still cards left
+        }
+
+        Debug.Log("[GameManager] GAME OVER");
+
+        AudioManager.Instance.PlayGameOver();
+        ShowGameOver();
+    }
+
 }
