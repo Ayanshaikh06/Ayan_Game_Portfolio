@@ -22,7 +22,12 @@ public class Card : MonoBehaviour
     private void HandleClick()
     {
         if (IsMatched || IsFlipped)
+        {
+            Debug.Log($"[Card] Click ignored | ID: {cardId}");
             return;
+        }
+
+        Debug.Log($"[Card] Clicked | ID: {cardId}");
 
         FlipFront();
         IsFlipped = true;
@@ -30,20 +35,27 @@ public class Card : MonoBehaviour
         OnCardFlipped?.Invoke(this);
     }
 
+    public void SetMatched()
+    {
+        IsMatched = true;
+        IsFlipped = true; // explicitly keep it flipped
+        Debug.Log($"[Card] Card matched | ID: {cardId}");
+        AudioManager.Instance.PlayMatch();
+    }
+
+
+
     public void FlipFront()
     {
         animator.SetTrigger("FlipFront");
+        AudioManager.Instance.PlayFlip();
     }
 
     public void FlipBack()
     {
         animator.SetTrigger("FlipBack");
         IsFlipped = false;
-        
+        AudioManager.Instance.PlayMismatch();
     }
 
-    public void SetMatched()
-    {
-        IsMatched = true;
-    }
 }
